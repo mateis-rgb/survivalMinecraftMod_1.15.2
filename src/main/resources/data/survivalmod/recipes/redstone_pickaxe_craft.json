@@ -1,0 +1,30 @@
+{
+  "group": "survivalmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "survivalmod:redstone_ingot"
+    },
+    "1": {
+      "item": "minecraft:diamond"
+    },
+    "2": {
+      "item": "survivalmod:redstone_ingot"
+    },
+    "4": {
+      "item": "survivalmod:iron_bar"
+    },
+    "7": {
+      "item": "survivalmod:iron_bar"
+    }
+  },
+  "result": {
+    "item": "survivalmod:redstone_pickaxe",
+    "count": 1
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "SurvivalMod",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "survival_mod"
+    },
+    {
+      "name": "CharredFlesh",
+      "type": "food",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "charred_flesh"
+    },
+    {
+      "name": "CharredFleshSmelt",
+      "type": "recipe",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "charred_flesh_smelt"
+    },
+    {
+      "name": "RedstoneIngot",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "redstone_ingot"
+    },
+    {
+      "name": "RedstoneIngotCraft",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "redstone_ingot_craft"
+    },
+    {
+      "name": "CharredFlechCooking",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "charred_flech_cooking"
+    },
+    {
+      "name": "IronBar",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iron_bar"
+    },
+    {
+      "name": "RedstonePickaxe",
+      "type": "tool",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "redstone_pickaxe"
+    },
+    {
+      "name": "RedstonePickaxeCraft",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "redstone_pickaxe_craft"
+    },
+    {
+      "name": "RedstonePickaxeBlockDestroyedWithTool",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "redstone_pickaxe_block_destroyed_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.testmod.charred_flesh": "Charred Flesh",
+      "item.testmod.iron_bar": "Iron Bar",
+      "itemGroup.tabsurvival_mod": "Survival Mod",
+      "item.survivalmod.redstone_ingot": "Redstone Ingot",
+      "item.survivalmod.redstone_pickaxe": "Redstone Pickaxe",
+      "item.survivalmod.charred_flesh": "Charred Flesh",
+      "item.testmod.redstone_pickaxe": "Redstone Pickaxe",
+      "item.testmod.redstone_ingot": "Redstone Ingot",
+      "item.survivalmod.iron_bar": "Iron Bar"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "survivalmod",
+    "modName": "SurvivalMod",
+    "version": "1.0.0",
+    "author": "Mateis",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.15.2",
+    "modElementsPackage": "net.mcreator.survivalmod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000547520
+}

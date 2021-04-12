@@ -1,0 +1,12 @@
+{
+  "group": "survivalmod",
+  "type": "minecraft:smoking",
+  "experience": 1,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "minecraft:rotten_flesh"
+  },
+  "result": {
+    "item": "survivalmod:charred_flesh"
+  }
+}
