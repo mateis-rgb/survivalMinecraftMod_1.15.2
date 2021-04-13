@@ -3,20 +3,20 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "mining",
+    "texture": "redstone_sword",
     "customModelName": "Normal",
-    "name": "Redstone Pickaxe",
+    "name": "Restone Sword",
     "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:SurvivalMod"
     },
-    "toolType": "Pickaxe",
-    "harvestLevel": 3,
-    "efficiency": 10.0,
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
     "attackSpeed": 1.0,
-    "enchantability": 22,
-    "damageVsEntity": 4.0,
-    "usageCount": 2570,
+    "enchantability": 2,
+    "damageVsEntity": 7.0,
+    "usageCount": 2750,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [
@@ -25,9 +25,6 @@
       }
     ],
     "stayInGridWhenCrafting": false,
-    "damageOnCrafting": false,
-    "onBlockDestroyedWithTool": {
-      "name": "RedstonePickaxeBlockDestroyedWithTool"
-    }
+    "damageOnCrafting": false
   }
 }

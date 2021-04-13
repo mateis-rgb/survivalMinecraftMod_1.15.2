@@ -1,0 +1,20 @@
+{
+  "item.testmod.charred_flesh": "Viande de Zombie cuite",
+  "item.survivalmod.purple_fragment": "Fragment Violet",
+  "item.survivalmod.redstone_shovel": "Pelle en Redstone",
+  "item.survivalmod.boss_spawn_egg": "Oeuf du Demon",
+  "block.survivalmod.mossy_chiseled_stone_bricks": "Briques de Pierre Ciselées Moussues",
+  "item.survivalmod.redstone_ingot": "Lingot de Redstone",
+  "item.survivalmod.redstone_pickaxe": "Pioche en Redstone",
+  "entity.survivalmod.boss": "Le Demon",
+  "item.survivalmod.charred_flesh": "Viande de Zombie cuite",
+  "item.survivalmod.restone_sword": "Epée en Redstone",
+  "item.testmod.redstone_pickaxe": "Pioche en Redstone",
+  "item.survivalmod.red_fragment": "Fragment Rouge",
+  "item.testmod.redstone_ingot": "Lingot de Redstone",
+  "item.survivalmod.iron_bar": "Baton de Fer",
+  "item.survivalmod.yellow_fragment": "Fragment Jaune",
+  "item.testmod.iron_bar": "Baton de Fer",
+  "itemGroup.tabsurvival_mod": "Survival Mod",
+  "item.survivalmod.redstone_axe": "Hache en Redstone"
+}

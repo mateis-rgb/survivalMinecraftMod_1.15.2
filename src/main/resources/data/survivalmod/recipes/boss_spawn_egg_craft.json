@@ -1,0 +1,19 @@
+{
+  "group": "survivalmod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "survivalmod:purple_fragment"
+    },
+    {
+      "item": "survivalmod:red_fragment"
+    },
+    {
+      "item": "survivalmod:yellow_fragment"
+    }
+  ],
+  "result": {
+    "item": "survivalmod:boss_spawn_egg",
+    "count": 1
+  }
+}

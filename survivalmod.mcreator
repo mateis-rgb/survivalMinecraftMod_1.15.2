@@ -114,6 +114,201 @@
           }
         ]
       }
+    },
+    {
+      "name": "IronBarCraft",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iron_bar_craft"
+    },
+    {
+      "name": "RedstoneAxe",
+      "type": "tool",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "redstone_axe"
+    },
+    {
+      "name": "RestoneAxeCraft",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "restone_axe_craft"
+    },
+    {
+      "name": "RestoneSword",
+      "type": "tool",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "restone_sword"
+    },
+    {
+      "name": "RestoneSwordCraft",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "restone_sword_craft"
+    },
+    {
+      "name": "RedstoneShovel",
+      "type": "tool",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "redstone_shovel"
+    },
+    {
+      "name": "RedstoneShovelCraft",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "redstone_shovel_craft"
+    },
+    {
+      "name": "RedFragment",
+      "type": "item",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "red_fragment"
+    },
+    {
+      "name": "PurpleFragment",
+      "type": "item",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "purple_fragment"
+    },
+    {
+      "name": "YellowFragment",
+      "type": "item",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "yellow_fragment"
+    },
+    {
+      "name": "BossSpawnEgg",
+      "type": "item",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "boss_spawn_egg"
+    },
+    {
+      "name": "BossSpawnEggCraft",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "boss_spawn_egg_craft"
+    },
+    {
+      "name": "MossyChiseledStoneBricks",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mossy_chiseled_stone_bricks"
+    },
+    {
+      "name": "BossSpawnEggLorsDunClickDroitSurUnBloc",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "boss_spawn_egg_lors_dun_click_droit_sur_un_bloc",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FragStructure1",
+      "type": "structure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "frag_structure_1"
+    },
+    {
+      "name": "FragStructure2",
+      "type": "structure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "frag_structure_2"
+    },
+    {
+      "name": "FragStructure3",
+      "type": "structure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "frag_structure_3"
+    },
+    {
+      "name": "BossStructure",
+      "type": "structure",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "boss_structure"
+    },
+    {
+      "name": "Boss",
+      "type": "mob",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "boss"
     }
   ],
   "variable_elements": [],
@@ -121,14 +316,43 @@
   "language_map": {
     "en_us": {
       "item.testmod.charred_flesh": "Charred Flesh",
-      "item.testmod.iron_bar": "Iron Bar",
-      "itemGroup.tabsurvival_mod": "Survival Mod",
+      "item.survivalmod.purple_fragment": "Purple Fragment",
+      "item.survivalmod.redstone_shovel": "Redstone Shovel",
+      "item.survivalmod.boss_spawn_egg": "The Devil Spawn Egg",
+      "block.survivalmod.mossy_chiseled_stone_bricks": "Mossy Chiseled Stone Bricks",
       "item.survivalmod.redstone_ingot": "Redstone Ingot",
       "item.survivalmod.redstone_pickaxe": "Redstone Pickaxe",
+      "entity.survivalmod.boss": "The Devil",
       "item.survivalmod.charred_flesh": "Charred Flesh",
+      "item.survivalmod.restone_sword": "Restone Sword",
       "item.testmod.redstone_pickaxe": "Redstone Pickaxe",
+      "item.survivalmod.red_fragment": "Red Fragment",
       "item.testmod.redstone_ingot": "Redstone Ingot",
-      "item.survivalmod.iron_bar": "Iron Bar"
+      "item.survivalmod.iron_bar": "Iron Bar",
+      "item.survivalmod.yellow_fragment": "Yellow Fragment",
+      "item.testmod.iron_bar": "Iron Bar",
+      "itemGroup.tabsurvival_mod": "Survival Mod",
+      "item.survivalmod.redstone_axe": "Redstone Axe"
+    },
+    "fr_fr": {
+      "item.testmod.charred_flesh": "Viande de Zombie cuite",
+      "item.survivalmod.purple_fragment": "Fragment Violet",
+      "item.survivalmod.redstone_shovel": "Pelle en Redstone",
+      "item.survivalmod.boss_spawn_egg": "Oeuf du Demon",
+      "block.survivalmod.mossy_chiseled_stone_bricks": "Briques de Pierre Ciselées Moussues",
+      "item.survivalmod.redstone_ingot": "Lingot de Redstone",
+      "item.survivalmod.redstone_pickaxe": "Pioche en Redstone",
+      "entity.survivalmod.boss": "Le Demon",
+      "item.survivalmod.charred_flesh": "Viande de Zombie cuite",
+      "item.survivalmod.restone_sword": "Epée en Redstone",
+      "item.testmod.redstone_pickaxe": "Pioche en Redstone",
+      "item.survivalmod.red_fragment": "Fragment Rouge",
+      "item.testmod.redstone_ingot": "Lingot de Redstone",
+      "item.survivalmod.iron_bar": "Baton de Fer",
+      "item.survivalmod.yellow_fragment": "Fragment Jaune",
+      "item.testmod.iron_bar": "Baton de Fer",
+      "itemGroup.tabsurvival_mod": "Survival Mod",
+      "item.survivalmod.redstone_axe": "Hache en Redstone"
     }
   },
   "workspaceSettings": {

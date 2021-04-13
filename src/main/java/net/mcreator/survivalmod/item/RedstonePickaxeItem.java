@@ -36,7 +36,7 @@ public class RedstonePickaxeItem extends SurvivalmodModElements.ModElement {
 			}
 
 			public float getEfficiency() {
-				return 4f;
+				return 10f;
 			}
 
 			public float getAttackDamage() {

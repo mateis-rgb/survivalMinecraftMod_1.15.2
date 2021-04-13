@@ -3,20 +3,20 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "mining",
+    "texture": "redstone_shovel",
     "customModelName": "Normal",
-    "name": "Redstone Pickaxe",
+    "name": "Redstone Shovel",
     "specialInfo": [],
     "creativeTab": {
-      "value": "CUSTOM:SurvivalMod"
+      "value": "TOOLS"
     },
-    "toolType": "Pickaxe",
-    "harvestLevel": 3,
-    "efficiency": 10.0,
+    "toolType": "Spade",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
     "attackSpeed": 1.0,
     "enchantability": 22,
     "damageVsEntity": 4.0,
-    "usageCount": 2570,
+    "usageCount": 2750,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [
@@ -25,9 +25,6 @@
       }
     ],
     "stayInGridWhenCrafting": false,
-    "damageOnCrafting": false,
-    "onBlockDestroyedWithTool": {
-      "name": "RedstonePickaxeBlockDestroyedWithTool"
-    }
+    "damageOnCrafting": false
   }
 }

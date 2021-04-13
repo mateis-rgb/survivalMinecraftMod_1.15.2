@@ -69,7 +69,7 @@ public class RedstonePickaxeBlockDestroyedWithToolProcedure extends SurvivalmodM
 			}
 			if (entity instanceof PlayerEntity)
 				((PlayerEntity) entity).giveExperiencePoints((int) 1);
-		} else if (((world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock() == Blocks.IRON_ORE.getDefaultState().getBlock())) {
+		} else if (((world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock() == Blocks.GOLD_ORE.getDefaultState().getBlock())) {
 			world.setBlockState(new BlockPos((int) x, (int) y, (int) z), Blocks.AIR.getDefaultState(), 3);
 			if (entity instanceof PlayerEntity) {
 				ItemStack _setstack = new ItemStack(Items.GOLD_INGOT, (int) (1));
@@ -83,7 +83,7 @@ public class RedstonePickaxeBlockDestroyedWithToolProcedure extends SurvivalmodM
 			world.setBlockState(new BlockPos((int) x, (int) y, (int) z), Blocks.AIR.getDefaultState(), 3);
 			if (entity instanceof PlayerEntity) {
 				ItemStack _setstack = new ItemStack(Items.REDSTONE, (int) (1));
-				_setstack.setCount((int) 1);
+				_setstack.setCount((int) 4);
 				ItemHandlerHelper.giveItemToPlayer(((PlayerEntity) entity), _setstack);
 			}
 			if (entity instanceof PlayerEntity)
@@ -92,7 +92,7 @@ public class RedstonePickaxeBlockDestroyedWithToolProcedure extends SurvivalmodM
 			world.setBlockState(new BlockPos((int) x, (int) y, (int) z), Blocks.AIR.getDefaultState(), 3);
 			if (entity instanceof PlayerEntity) {
 				ItemStack _setstack = new ItemStack(Items.LAPIS_LAZULI, (int) (1));
-				_setstack.setCount((int) 1);
+				_setstack.setCount((int) 3);
 				ItemHandlerHelper.giveItemToPlayer(((PlayerEntity) entity), _setstack);
 			}
 			if (entity instanceof PlayerEntity)
@@ -122,7 +122,7 @@ public class RedstonePickaxeBlockDestroyedWithToolProcedure extends SurvivalmodM
 			world.setBlockState(new BlockPos((int) x, (int) y, (int) z), Blocks.AIR.getDefaultState(), 3);
 			if (entity instanceof PlayerEntity) {
 				ItemStack _setstack = new ItemStack(Items.QUARTZ, (int) (1));
-				_setstack.setCount((int) 1);
+				_setstack.setCount((int) 2);
 				ItemHandlerHelper.giveItemToPlayer(((PlayerEntity) entity), _setstack);
 			}
 			if (entity instanceof PlayerEntity)
